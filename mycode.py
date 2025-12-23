@@ -7,6 +7,11 @@ data = {"name":['alice','bob','charlie'],
 "gender":['F','M','M']
 }
 df = pd.DataFrame(data)
+
+#add more data for dvc - v2
+df['city'] = ['av','ad','al']
+
+
 data_dir = "data"
 os.makedirs(data_dir,exist_ok=True)
 
