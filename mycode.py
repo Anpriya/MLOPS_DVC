@@ -11,6 +11,8 @@ df = pd.DataFrame(data)
 #add more data for dvc - v2
 df['city'] = ['av','ad','al']
 
+#add mode data for dvc - v3
+df['profession'] = ['student','exp','student']
 
 data_dir = "data"
 os.makedirs(data_dir,exist_ok=True)
